@@ -5,14 +5,14 @@ extends Panel
 # var b = "textvar"
 
 func _ready():
-	# Called when the node is added to the scene for the first time.
-	# Initialization here
-	pass
+	var tree = $Tree
+	var root = tree.create_item()
+	tree.set_hide_root(true)
+	var child1 = tree.create_item(root)
+	var child2 = tree.create_item(root)
+	var subchild1 = tree.create_item(child1)
+	subchild1.set_text(0, "Subchild1")
 
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass
 
 
 func _on_Button_button_down():

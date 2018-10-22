@@ -10,7 +10,7 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_right = 338.0
-margin_bottom = 452.0
+margin_bottom = 533.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -26,10 +26,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 72.0
-margin_top = 96.0
-margin_right = 244.0
-margin_bottom = 181.0
+margin_left = 21.0
+margin_top = 62.0
+margin_right = 313.0
+margin_bottom = 147.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -56,7 +56,68 @@ caret_blink_speed = 0.65
 caret_moving_by_right_click = true
 _sections_unfolded = [ "Theme" ]
 
-[node name="TabContainer" type="TabContainer" parent="." index="1"]
+[node name="TextEdit2" type="TextEdit" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 363.0
+margin_top = 415.0
+margin_right = 581.0
+margin_bottom = 534.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 2 )
+text = "TextEdit"
+readonly = true
+highlight_current_line = false
+syntax_highlighting = false
+show_line_numbers = false
+highlight_all_occurrences = false
+override_selected_font_color = false
+context_menu_enabled = true
+smooth_scrolling = true
+v_scroll_speed = 80.0
+hiding_enabled = 0
+wrap_lines = true
+caret_block_mode = false
+caret_blink = false
+caret_blink_speed = 0.65
+caret_moving_by_right_click = true
+_sections_unfolded = [ "Theme" ]
+
+[node name="Button2" type="Button" parent="." index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 23.0
+margin_top = 164.0
+margin_right = 311.0
+margin_bottom = 212.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Open File Dialog"
+flat = false
+align = 1
+
+[node name="TabContainer" type="TabContainer" parent="." index="3"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -91,16 +152,16 @@ size_flags_vertical = 1
 tab_align = 1
 scrolling_enabled = true
 
-[node name="Button2" type="Button" parent="TabContainer/Tabs" index="0"]
+[node name="Button" type="Button" parent="TabContainer/Tabs" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -283.0
-margin_top = 70.0
-margin_right = -105.0
-margin_bottom = 118.0
+margin_left = 21.0
+margin_top = 22.0
+margin_right = 199.0
+margin_bottom = 70.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -157,16 +218,33 @@ group = null
 flat = false
 align = 0
 
-[node name="VSlider" type="VSlider" parent="." index="2"]
+[node name="HSeparator" type="HSeparator" parent="." index="4"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 9.0
+margin_top = 355.0
+margin_right = 329.0
+margin_bottom = 422.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="VSlider" type="VSlider" parent="." index="5"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 315.0
-margin_top = 99.0
+margin_top = 79.0
 margin_right = 331.0
-margin_bottom = 383.0
+margin_bottom = 363.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -186,16 +264,16 @@ tick_count = 0
 ticks_on_borders = false
 focus_mode = 2
 
-[node name="HSlider" type="HSlider" parent="." index="3"]
+[node name="HSlider" type="HSlider" parent="." index="6"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 18.0
-margin_top = 365.0
-margin_right = 337.0
-margin_bottom = 445.0
+margin_left = 15.0
+margin_top = 372.0
+margin_right = 334.0
+margin_bottom = 452.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -215,18 +293,44 @@ tick_count = 0
 ticks_on_borders = false
 focus_mode = 2
 
-[node name="RichTextLabel" type="RichTextLabel" parent="." index="4"]
+[node name="LineEdit" type="LineEdit" parent="." index="7"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 277.0
-margin_top = 427.0
-margin_right = 559.0
-margin_bottom = 560.0
+margin_left = 13.0
+margin_top = 441.0
+margin_right = 326.0
+margin_bottom = 472.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+text = "LineEdit"
+focus_mode = 2
+context_menu_enabled = true
+placeholder_alpha = 0.6
+caret_blink = false
+caret_blink_speed = 0.65
+caret_position = 0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." index="8"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 657.0
+margin_top = 30.0
+margin_right = 939.0
+margin_bottom = 227.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
+focus_mode = 2
 mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
@@ -262,45 +366,20 @@ text = "sdgas dfsadf
  asdf asd fas fd "
 scroll_active = true
 scroll_following = false
-selection_enabled = false
+selection_enabled = true
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode" ]
 
-[node name="Button" type="Button" parent="." index="5"]
+[node name="CheckBox" type="CheckBox" parent="." index="9"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 379.0
-margin_top = 187.0
-margin_right = 557.0
-margin_bottom = 235.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-text = "test"
-flat = false
-align = 1
-
-[node name="CheckBox" type="CheckBox" parent="." index="6"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = 49.0
-margin_top = 299.0
-margin_right = 254.0
-margin_bottom = 345.0
+margin_left = 26.0
+margin_top = 243.0
+margin_right = 231.0
+margin_bottom = 271.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -316,16 +395,16 @@ text = "check"
 flat = false
 align = 0
 
-[node name="CheckBox2" type="CheckBox" parent="." index="7"]
+[node name="CheckBox2" type="CheckBox" parent="." index="10"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 49.0
-margin_top = 341.0
-margin_right = 254.0
-margin_bottom = 387.0
+margin_left = 26.0
+margin_top = 277.0
+margin_right = 231.0
+margin_bottom = 303.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -341,16 +420,16 @@ text = "check"
 flat = false
 align = 0
 
-[node name="OptionButton" type="OptionButton" parent="." index="8"]
+[node name="OptionButton" type="OptionButton" parent="." index="11"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 70.0
-margin_top = 18.0
-margin_right = 250.0
-margin_bottom = 57.0
+margin_left = 20.0
+margin_top = 12.0
+margin_right = 313.0
+margin_bottom = 51.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -368,16 +447,16 @@ align = 0
 items = [  ]
 selected = -1
 
-[node name="CheckButton" type="CheckButton" parent="." index="9"]
+[node name="CheckButton" type="CheckButton" parent="." index="12"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 203.0
-margin_top = 332.0
-margin_right = 279.0
-margin_bottom = 372.0
+margin_left = 27.0
+margin_top = 315.0
+margin_right = 264.0
+margin_bottom = 344.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -389,20 +468,21 @@ toggle_mode = true
 enabled_focus_mode = 2
 shortcut = null
 group = null
+text = "Switch On/Off"
 flat = false
 align = 0
 
-[node name="FileDialog" type="FileDialog" parent="." index="10"]
+[node name="FileDialog" type="FileDialog" parent="." index="13"]
 
 visible = false
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 478.0
-margin_top = 90.0
-margin_right = 853.0
-margin_bottom = 333.0
+margin_left = 324.0
+margin_top = 71.0
+margin_right = 782.0
+margin_bottom = 373.0
 rect_min_size = Vector2( 200, 70 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -423,7 +503,7 @@ current_dir = "res://"
 current_file = ""
 current_path = "res://"
 
-[node name="MenuButton" type="MenuButton" parent="." index="11"]
+[node name="MenuButton" type="MenuButton" parent="." index="14"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -448,8 +528,54 @@ flat = true
 align = 1
 items = [  ]
 
-[connection signal="button_down" from="TabContainer/Tabs/Button2" to="." method="_on_Button_button_down"]
+[node name="Tree" type="Tree" parent="." index="15"]
 
-[connection signal="button_down" from="Button" to="." method="_on_Button_button_down"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 664.0
+margin_top = 257.0
+margin_right = 938.0
+margin_bottom = 533.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+columns = 1
+allow_reselect = false
+allow_rmb_select = false
+hide_folding = false
+hide_root = false
+drop_mode_flags = 0
+select_mode = 0
+
+[node name="Label" type="Label" parent="." index="16"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 356.0
+margin_top = 16.0
+margin_right = 567.0
+margin_bottom = 43.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+text = "Label"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[connection signal="button_down" from="Button2" to="." method="_on_Button_button_down"]
+
+[connection signal="button_down" from="TabContainer/Tabs/Button" to="." method="_on_Button_button_down"]
 
 
