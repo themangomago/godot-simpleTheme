@@ -1,0 +1,22 @@
+<colors>
+	<!-- Font Colors. -->
+	<FontColor>0.85, 0.85, 0.85, 1</FontColor>
+	<FontColorDisabled>0.39, 0.39, 0.39, 1</FontColorDisabled>
+	<FontColorHover>1, 1, 1, 1</FontColorHover>
+	<FontColorPressed>0.76, 0.76, 0.76, 1</FontColorPressed>
+	<!-- Main Theme Colors, e.g. Button -->
+	<MainStyleDisabled>0.27, 0.28, 0.29, 1</MainStyleDisabled>
+	<MainStyleFocus>0.31, 0.38, 0.46, 1</MainStyleFocus>
+	<MainStyleHover>0.17, 0.32, 0.47, 1</MainStyleHover>
+	<MainStyleNormal>0.31, 0.38, 0.46, 1</MainStyleNormal>
+	<MainStylePressed>0.19, 0.36, 0.52, 1</MainStylePressed>
+	<MainStyleBG>0.17, 0.24, 0.31, 1</MainStyleBG>
+	<TabPanelBG>0.23, 0.31, 0.38, 1</TabPanelBG>
+	<TabTabBG>0.15, 0.21, 0.27, 1</TabTabBG>
+	<SeperatorBG>0.1, 0.15, 0.2, 1</SeperatorBG>
+	<ShadeBG>0.1, 0.15, 0.2, 0.5</ShadeBG>
+	<MenuHoverBG>0.17, 0.32, 0.47, 0.5</MenuHoverBG>
+
+
+
+</colors>
