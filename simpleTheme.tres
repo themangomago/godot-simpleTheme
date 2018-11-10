@@ -1326,12 +1326,33 @@ content_margin_right = -1.0
 content_margin_top = -1.0
 content_margin_bottom = -1.0
 
-[sub_resource type="StyleBoxEmpty" id=81]
+[sub_resource type="StyleBoxFlat" id=81]
 
 content_margin_left = -1.0
 content_margin_right = -1.0
 content_margin_top = -1.0
 content_margin_bottom = -1.0
+bg_color = Color( 0.17, 0.32, 0.47, 0.5 )
+draw_center = true
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+border_color = Color( 0.8, 0.8, 0.8, 1 )
+border_blend = false
+corner_radius_top_left = 0
+corner_radius_top_right = 0
+corner_radius_bottom_right = 0
+corner_radius_bottom_left = 0
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
 
 [sub_resource type="StyleBoxFlat" id=82]
 
@@ -2058,5 +2079,5 @@ WindowDialog/fonts/title_font = null
 WindowDialog/icons/close = ExtResource( 22 )
 WindowDialog/icons/close_highlight = ExtResource( 22 )
 WindowDialog/styles/panel = SubResource( 97 )
-_sections_unfolded = [ "Button/styles", "ButtonGroup/styles", "CheckBox/icons", "CheckBox/styles", "CheckButton/colors", "CheckButton/constants", "CheckButton/icons", "CheckButton/styles", "ColorPicker/icons", "ColorPickerButton", "ColorPickerButton/colors", "ColorPickerButton/icons", "ColorPickerButton/styles", "FileDialog/colors", "FileDialog/icons", "Fonts/fonts", "GraphEdit/icons", "GraphNode/icons", "GridContainer/constants", "HBoxContainer/constants", "HScrollBar/icons", "HScrollBar/styles", "HSeparator/constants", "HSeparator/styles", "HSlider/icons", "HSlider/styles", "HSplitContainer/icons", "Icons/icons", "ItemList/styles", "Label/colors", "Label/constants", "Label/fonts", "Label/styles", "LineEdit/colors", "LineEdit/styles", "LinkButton/styles", "MenuButton/colors", "MenuButton/styles", "OptionButton/styles", "Panel/styles", "PanelContainer/styles", "PopupMenu/colors", "PopupMenu/styles", "PopupPanel/styles", "ProgressBar/colors", "ProgressBar/styles", "ReferenceRect/styles", "RichTextLabel/colors", "RichTextLabel/constants", "RichTextLabel/styles", "TabContainer", "TabContainer/colors", "TabContainer/styles", "Tabs/styles", "TextEdit/styles", "ToolButton/colors", "ToolButton/styles", "TooltipLabel/colors", "TooltipPanel/styles", "Tree/styles", "VBoxContainer/constants", "VScrollBar/icons", "VScrollBar/styles", "VSeparator/constants", "VSeparator/styles", "VSlider/icons", "VSlider/styles", "VSplitContainer/constants", "VSplitContainer/styles", "WindowDialog/colors", "WindowDialog/icons", "WindowDialog/styles" ]
+_sections_unfolded = [ "Button/styles", "ButtonGroup/styles", "CheckBox/icons", "CheckBox/styles", "CheckButton/colors", "CheckButton/constants", "CheckButton/icons", "CheckButton/styles", "ColorPicker/icons", "ColorPickerButton", "ColorPickerButton/colors", "ColorPickerButton/icons", "ColorPickerButton/styles", "FileDialog/colors", "FileDialog/icons", "Fonts/fonts", "GraphEdit/icons", "GraphNode/icons", "GridContainer/constants", "HBoxContainer/constants", "HScrollBar/icons", "HScrollBar/styles", "HSeparator/constants", "HSeparator/styles", "HSlider/icons", "HSlider/styles", "HSplitContainer/icons", "Icons/icons", "ItemList/styles", "Label/colors", "Label/constants", "Label/fonts", "Label/styles", "LineEdit/colors", "LineEdit/styles", "LinkButton/styles", "MenuButton/colors", "MenuButton/styles", "OptionButton/styles", "Panel/styles", "PanelContainer/styles", "PopupMenu/colors", "PopupMenu/styles", "PopupPanel/styles", "ProgressBar/colors", "ProgressBar/styles", "ReferenceRect/styles", "RichTextLabel/colors", "RichTextLabel/constants", "RichTextLabel/styles", "TabContainer", "TabContainer/colors", "TabContainer/styles", "Tabs/styles", "TextEdit/styles", "ToolButton/colors", "ToolButton/styles", "TooltipLabel/colors", "TooltipPanel/styles", "Tree", "Tree/styles", "VBoxContainer/constants", "VScrollBar/icons", "VScrollBar/styles", "VSeparator/constants", "VSeparator/styles", "VSlider/icons", "VSlider/styles", "VSplitContainer/constants", "VSplitContainer/styles", "WindowDialog/colors", "WindowDialog/icons", "WindowDialog/styles" ]
 
