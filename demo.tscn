@@ -326,8 +326,8 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 657.0
 margin_top = 30.0
-margin_right = 939.0
-margin_bottom = 227.0
+margin_right = 924.0
+margin_bottom = 111.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 focus_mode = 2
@@ -528,16 +528,39 @@ flat = true
 align = 1
 items = [  ]
 
-[node name="Tree" type="Tree" parent="." index="15"]
+[node name="ItemList" type="ItemList" parent="." index="15"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 664.0
-margin_top = 257.0
-margin_right = 938.0
-margin_bottom = 533.0
+margin_left = 654.0
+margin_top = 287.0
+margin_right = 925.0
+margin_bottom = 519.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+items = [  ]
+select_mode = 0
+allow_reselect = false
+icon_mode = 1
+fixed_icon_size = Vector2( 0, 0 )
+
+[node name="Tree" type="Tree" parent="." index="16"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 652.0
+margin_top = 147.0
+margin_right = 926.0
+margin_bottom = 261.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 focus_mode = 2
@@ -553,7 +576,7 @@ hide_root = false
 drop_mode_flags = 0
 select_mode = 0
 
-[node name="Label" type="Label" parent="." index="16"]
+[node name="Label" type="Label" parent="." index="17"]
 
 anchor_left = 0.0
 anchor_top = 0.0

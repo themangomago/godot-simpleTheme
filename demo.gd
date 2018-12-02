@@ -12,6 +12,15 @@ func _ready():
 	var child2 = tree.create_item(root)
 	var subchild1 = tree.create_item(child1)
 	subchild1.set_text(0, "Subchild1")
+	
+	$ItemList.add_item("test", null, true)
+	$ItemList.add_item("test2", null, false)
+	$ItemList.add_item("test3", null, true)
+	$ItemList.add_item("test4", null, false)
+	$ItemList.add_item("test5", null, true)
+	$ItemList.add_item("test6", null, true)
+	
+
 
 
 
