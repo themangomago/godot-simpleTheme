@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=121 format=2]
+[gd_resource type="Theme" load_steps=127 format=2]
 
 [ext_resource path="res://assets/theme/images/checked.png" type="Texture" id=1]
 [ext_resource path="res://assets/theme/images/radiochecked.png" type="Texture" id=2]
@@ -514,6 +514,113 @@ shadow_size = 0
 anti_aliasing = true
 anti_aliasing_size = 1
 _sections_unfolded = [ "Content Margin" ]
+
+[sub_resource type="StyleBoxFlat" id=98]
+
+content_margin_left = 0.0
+content_margin_right = 0.0
+content_margin_top = 0.0
+content_margin_bottom = 0.0
+bg_color = Color( 0, 0, 0, 0 )
+draw_center = true
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+border_color = Color( 0.0980392, 0.14902, 0.2, 1 )
+border_blend = false
+corner_radius_top_left = 0
+corner_radius_top_right = 0
+corner_radius_bottom_right = 0
+corner_radius_bottom_left = 0
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
+_sections_unfolded = [ "Border", "Border Width", "Content Margin", "Expand Margin" ]
+
+[sub_resource type="StyleBoxEmpty" id=107]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=108]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=109]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxFlat" id=105]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+bg_color = Color( <MainStyleHover> )
+draw_center = true
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+border_color = Color( 0.8, 0.8, 0.8, 1 )
+border_blend = false
+corner_radius_top_left = 0
+corner_radius_top_right = 0
+corner_radius_bottom_right = 0
+corner_radius_bottom_left = 0
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
+
+[sub_resource type="StyleBoxFlat" id=110]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+bg_color = Color( <MainStyleHover> )
+draw_center = true
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+border_color = Color( 0.8, 0.8, 0.8, 1 )
+border_blend = false
+corner_radius_top_left = 0
+corner_radius_top_right = 0
+corner_radius_bottom_right = 0
+corner_radius_bottom_left = 0
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
+_sections_unfolded = [ "Content Margin", "Corner Radius", "Expand Margin" ]
 
 [sub_resource type="StyleBoxEmpty" id=30]
 
@@ -1816,20 +1923,20 @@ HSplitContainer/icons/grabber = ExtResource( 9 )
 HSplitContainer/styles/bg = null
 Icons/icons/close = ExtResource( 9 )
 Icons/icons/logo = ExtResource( 9 )
-ItemList/colors/font_color = Color( 0, 0, 0, 1 )
-ItemList/colors/font_color_selected = Color( 0, 0, 0, 1 )
-ItemList/colors/guide_color = Color( 0, 0, 0, 1 )
+ItemList/colors/font_color = Color( <FontColor> )
+ItemList/colors/font_color_selected = Color( <FontColorHover> )
+ItemList/colors/guide_color = Color( <SeperatorBG> )
 ItemList/constants/hseparation = 4
 ItemList/constants/icon_margin = 4
-ItemList/constants/line_separation = 2
-ItemList/constants/vseparation = 2
+ItemList/constants/line_separation = 4
+ItemList/constants/vseparation = 4
 ItemList/fonts/font = null
-ItemList/styles/bg = null
-ItemList/styles/bg_focus = null
-ItemList/styles/cursor = null
-ItemList/styles/cursor_unfocused = null
-ItemList/styles/selected = null
-ItemList/styles/selected_focus = null
+ItemList/styles/bg = SubResource( 98 )
+ItemList/styles/bg_focus = SubResource( 107 )
+ItemList/styles/cursor = SubResource( 108 )
+ItemList/styles/cursor_unfocused = SubResource( 109 )
+ItemList/styles/selected = SubResource( 105 )
+ItemList/styles/selected_focus = SubResource( 110 )
 Label/colors/font_color = Color( <FontColor> )
 Label/colors/font_color_shadow = Color( 0.0859375, 0.0859375, 0.0859375, 0 )
 Label/constants/line_spacing = 3
